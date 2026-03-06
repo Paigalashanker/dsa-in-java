@@ -28,7 +28,7 @@ public class DeleteAtBeginning {
         }
         n--; // reduce the count
 
-        System.out.println("\nArray after deleting element at the beginning:");
+        System.out.println("\nArray after deleting element at the beginning :");
         for (int i = 0; i < n; i++) {
             System.out.print(arr[i] + " ");
         }
