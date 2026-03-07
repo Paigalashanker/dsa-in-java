@@ -4,6 +4,13 @@ This section contains beginner-friendly Java implementations for array-based pro
 
 ## Topics
 
+- **Array Traversal**
+  - Basic Traversal
+  - Reverse Traversal
+  - Conditional Traversal
+  - Sum of Array
+  - Find Max Element
+
 - **Array Insertion**
   - Insertion at Beginning
   - Insertion at Middle
