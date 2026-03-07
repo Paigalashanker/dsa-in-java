@@ -27,16 +27,44 @@ DSA in Java/
     ├── README.md
     └── Arrays/
         ├── README.md
-        └── Array-Insertion/
+        ├── Array-Traversal/
+        │   ├── README.md
+        │   ├── Basic-Traversal/
+        │   │   ├── BasicTraversal.java
+        │   │   └── README.md
+        │   ├── Reverse-Traversal/
+        │   │   ├── ReverseTraversal.java
+        │   │   └── README.md
+        │   ├── Conditional-Traversal/
+        │   │   ├── ConditionalTraversal.java
+        │   │   └── README.md
+        │   ├── Sum-Of-Array/
+        │   │   ├── SumOfArray.java
+        │   │   └── README.md
+        │   └── Find-Max-Element/
+        │       ├── FindMaxElement.java
+        │       └── README.md
+        ├── Array-Insertion/
+        │   ├── README.md
+        │   ├── Insertion-At-Beginning/
+        │   │   ├── InsertAtBeginning.java
+        │   │   └── README.md
+        │   ├── Insertion-At-Middle/
+        │   │   ├── InsertAtMiddle.java
+        │   │   └── README.md
+        │   └── Insertion-At-End/
+        │       ├── InsertAtEnd.java
+        │       └── README.md
+        └── Array-Deletion/
             ├── README.md
-            ├── Insertion-At-Beginning/
-            │   ├── InsertAtBeginning.java
+            ├── Deletion-At-Beginning/
+            │   ├── DeleteAtBeginning.java
             │   └── README.md
-            ├── Insertion-At-Middle/
-            │   ├── InsertAtMiddle.java
+            ├── Deletion-At-Middle/
+            │   ├── DeleteAtMiddle.java
             │   └── README.md
-            └── Insertion-At-End/
-                ├── InsertAtEnd.java
+            └── Deletion-At-End/
+                ├── DeleteAtEnd.java
                 └── README.md
 ```
 
@@ -45,10 +73,20 @@ DSA in Java/
 ### Phase 2 – Core DSA
 
 - [x] Arrays
+  - [x] Array Traversal
+    - [x] Basic Traversal
+    - [x] Reverse Traversal
+    - [x] Conditional Traversal
+    - [x] Sum of Array
+    - [x] Find Max Element
   - [x] Array Insertion
     - [x] Insertion at Beginning
     - [x] Insertion at Middle
     - [x] Insertion at End
+  - [x] Array Deletion
+    - [x] Deletion at Beginning
+    - [x] Deletion at Middle
+    - [x] Deletion at End
 - [ ] Strings
 - [ ] Linked List
 - [ ] Stack
