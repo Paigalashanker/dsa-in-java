@@ -21,6 +21,18 @@ This section contains beginner-friendly Java implementations for array-based pro
   - Deletion at Middle
   - Deletion at End
 
+- **Advanced Techniques**
+  - Prefix Sum
+  - Kadane's Algorithm
+  - Sliding Window Technique
+
+- **Common Interview Problems**
+  - Two Sum
+  - Reverse Array
+  - Move Zeroes
+  - Find Second Largest
+  - Rotate Array
+
 ## How to run (Java)
 
 Each program is standalone (no packages).
