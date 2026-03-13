@@ -53,3 +53,4 @@ Character frequencies in "hello":
 - Using an array indexed by ASCII value is the classic `O(n)` approach — no `HashMap` needed for standard characters.
 - For Unicode strings a `HashMap<Character, Integer>` is the more general solution.
 - This technique is foundational for problems like **anagram detection**, **first unique character**, and **most frequent character**.
+  you must try.....
