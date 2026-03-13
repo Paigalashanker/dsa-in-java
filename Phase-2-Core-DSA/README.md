@@ -6,18 +6,19 @@ This folder contains my Java solutions for **Phase 2 – Core Data Structures & 
 
 ```
 Phase-2-Core-DSA/
-  Arrays/
+  Arrays/          ← Days 4–7
+  Strings/         ← Days 8–10
     README.md
-    Array-Insertion/
+    Basic-Operations/
       README.md
-      Insertion-At-Beginning/
-        InsertAtBeginning.java
+      Reversal/
+        StringReversal.java
         README.md
-      Insertion-At-Middle/
-        InsertAtMiddle.java
+      Palindrome-Checking/
+        PalindromeChecking.java
         README.md
-      Insertion-At-End/
-        InsertAtEnd.java
+      Frequency-Count/
+        FrequencyCount.java
         README.md
 ```
 
