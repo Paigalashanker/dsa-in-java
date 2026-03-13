@@ -1,6 +1,7 @@
 # Phase 2 – Core DSA: Strings
 
 This section contains beginner-friendly Java implementations for string-based problems from my **90-day DSA roadmap** (Days 8–10).
+you can take your own time if possible
 
 ## Topics
 
