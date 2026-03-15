@@ -1,146 +1,88 @@
 # DSA in Java
 
-This repository documents my **90-day journey** of learning **Data Structures and Algorithms (DSA)** in **Java**, following a structured roadmap and writing small, beginner-friendly programs along the way.
+This repository documents a 90-day journey of learning Data Structures and Algorithms in Java with small, beginner-friendly programs and notes.
 
-## 90-Day DSA Roadmap (high level)
+## Current roadmap slice
 
-The goal is to build strong fundamentals step-by-step.
+The current repository structure follows the Fundamentals section of the roadmap up to Strings:
 
-- **Phase 1 – Java + Problem-Solving Basics**
-  - Java syntax, I/O, loops, functions, basic complexity intuition
-- **Phase 2 – Core DSA** _(current)_
-  - Arrays, Strings, Linked Lists, Stacks, Queues, Recursion, Searching, Sorting
-- **Phase 3 – Intermediate DSA**
-  - Trees, BST, Heaps, Hashing, Backtracking
-- **Phase 4 – Advanced DSA**
-  - Graphs, DP (Dynamic Programming), Greedy, advanced patterns
-- **Phase 5 – Revision + Mock Interviews**
-  - Timed practice, revisiting weak topics, interview-style questions
+- Days 1-3: Algorithmic Thinking and Complexity
+- Days 4-7: Arrays
+- Days 8-10: Strings
 
-> Note: The exact day-by-day plan can vary. This repo focuses on consistent progress and clear explanations.
+Topics beyond Strings are intentionally not added yet.
 
-## Repository Structure
+## Repository structure
 
 ```text
 DSA in Java/
-└── Phase-2-Core-DSA/
-    ├── README.md
-    └── Arrays/
-        ├── README.md
-        ├── Array-Traversal/
-        │   ├── README.md
-        │   ├── Basic-Traversal/
-        │   │   ├── BasicTraversal.java
-        │   │   └── README.md
-        │   ├── Reverse-Traversal/
-        │   │   ├── ReverseTraversal.java
-        │   │   └── README.md
-        │   ├── Conditional-Traversal/
-        │   │   ├── ConditionalTraversal.java
-        │   │   └── README.md
-        │   ├── Sum-Of-Array/
-        │   │   ├── SumOfArray.java
-        │   │   └── README.md
-        │   └── Find-Max-Element/
-        │       ├── FindMaxElement.java
-        │       └── README.md
-        ├── Array-Insertion/
-        │   ├── README.md
-        │   ├── Insertion-At-Beginning/
-        │   │   ├── InsertAtBeginning.java
-        │   │   └── README.md
-        │   ├── Insertion-At-Middle/
-        │   │   ├── InsertAtMiddle.java
-        │   │   └── README.md
-        │   └── Insertion-At-End/
-        │       ├── InsertAtEnd.java
-        │       └── README.md
-        └── Array-Deletion/
-            ├── README.md
-            ├── Deletion-At-Beginning/
-            │   ├── DeleteAtBeginning.java
-            │   └── README.md
-            ├── Deletion-At-Middle/
-            │   ├── DeleteAtMiddle.java
-            │   └── README.md
-            └── Deletion-At-End/
-                ├── DeleteAtEnd.java
-                └── README.md
+├── Fundamentals-of-Algorithmic-Thinking-and-Data-Structures/
+│   ├── README.md
+│   ├── Days-1-3-Algorithmic-Thinking-and-Complexity/
+│   ├── Days-4-7-Arrays/
+│   └── Days-8-10-Strings/
+├── Main.java
+└── README.md
 ```
 
-## Progress Tracker
+## Progress tracker
 
-### Phase 2 – Core DSA
+### Fundamentals of Algorithmic Thinking and Data Structures
 
-- [x] Arrays
-  - [x] Array Traversal
-    - [x] Basic Traversal
-    - [x] Reverse Traversal
-    - [x] Conditional Traversal
-    - [x] Sum of Array
-    - [x] Find Max Element
-  - [x] Array Insertion
-    - [x] Insertion at Beginning
-    - [x] Insertion at Middle
-    - [x] Insertion at End
-  - [x] Array Deletion
-    - [x] Deletion at Beginning
-    - [x] Deletion at Middle
-    - [x] Deletion at End
-- [ ] Strings
-- [ ] Linked List
-- [ ] Stack
-- [ ] Queue
-- [ ] Recursion
-- [ ] Searching
-- [ ] Sorting
+- [x] Days 1-3: Algorithmic Thinking and Complexity
+  - [x] What is an Algorithm
+  - [x] Time and Space Complexity
+  - [x] Big-O Notation
+  - [x] Big-O Cheat Sheet
+- [x] Days 4-7: Arrays
+  - [x] Basics
+    - [x] Insertion
+    - [x] Deletion
+    - [x] Traversal
+  - [x] Advanced Techniques
+    - [x] Prefix Sum
+    - [x] Kadane's Algorithm
+    - [x] Sliding Window Technique
+  - [x] Common Interview Problems on Arrays
+- [x] Days 8-10: Strings
+  - [x] Basic Operations
+    - [x] Reversal
+    - [x] Palindrome Checking
+    - [x] Frequency Count
 
-## Technologies Used
+## How to compile and run
 
-- **Language:** Java
-- **Tools:** JDK (`javac`, `java`)
+Each Java program is standalone and does not use packages.
 
-## How to Compile and Run
+1. Open a terminal in the program folder.
+2. Compile the file:
 
-Each program is standalone (kept simple and beginner-friendly).
+```bash
+javac FileName.java
+```
 
-### Option A: Compile & run a single program
+3. Run the class:
 
-1. Open a terminal inside the program folder.
-2. Compile:
-   ```bash
-   javac FileName.java
-   ```
-3. Run:
-   ```bash
-   java ClassName
-   ```
+```bash
+java ClassName
+```
 
 Example:
 
 ```bash
-cd "Phase-2-Core-DSA/Arrays/Array-Insertion/Insertion-At-Middle"
-javac InsertAtMiddle.java
-java InsertAtMiddle
+cd "Fundamentals-of-Algorithmic-Thinking-and-Data-Structures/Days-8-10-Strings/Basic-Operations/Reversal"
+javac StringReversal.java
+java StringReversal
 ```
 
-### Option B: Compile everything inside a folder
+## Technologies used
 
-From any folder containing multiple `.java` files:
-
-```bash
-javac *.java
-```
+- Language: Java
+- Tools: JDK (javac, java)
 
 ## Motivation
 
-I’m building this repository to:
-
-- Stay consistent with a structured 90-day plan
-- Improve problem-solving skills in a trackable way
-- Maintain clean notes + examples for revision
-- Share my learning publicly and help other beginners
-
----
-
-If you’re also learning DSA, feel free to explore the folders and run the programs.
+- Stay consistent with a structured roadmap
+- Improve problem-solving step by step
+- Keep notes and code together for revision
+- Build a clean record of progress

@@ -1,25 +1,27 @@
 # Basic String Operations (Java)
 
-This folder covers the three fundamental string operations from the **Days 8–10: Strings** section of the roadmap.
+This folder covers the basic string topics from Days 8-10 of the Fundamentals roadmap.
 
 ## Topics
 
-| Topic               | File                                          | What it solves                                          |
-| ------------------- | --------------------------------------------- | ------------------------------------------------------- |
-| Reversal            | `Reversal/StringReversal.java`                | Reverse a string using two pointers                     |
-| Palindrome Checking | `Palindrome-Checking/PalindromeChecking.java` | Check if a string reads the same forwards and backwards |
-| Frequency Count     | `Frequency-Count/FrequencyCount.java`         | Count how many times each character appears             |
+| Topic               | Folder                 | What it covers                                       |
+| ------------------- | ---------------------- | ---------------------------------------------------- |
+| Reversal            | `Reversal/`            | Reverse a string using a two-pointer approach        |
+| Palindrome Checking | `Palindrome-Checking/` | Check whether a string reads the same from both ends |
+| Frequency Count     | `Frequency-Count/`     | Count how many times each character appears          |
 
 ## How to run
 
-Each program is standalone (no packages).
+Each program is standalone and uses no packages.
 
-1. Open a terminal in the specific topic folder.
-2. Compile:
-   ```bash
-   javac FileName.java
-   ```
-3. Run:
-   ```bash
-   java ClassName
-   ```
+1. Open a terminal in the topic folder.
+2. Compile the Java file.
+3. Run the class.
+
+Example:
+
+```bash
+cd "Reversal"
+javac StringReversal.java
+java StringReversal
+```
